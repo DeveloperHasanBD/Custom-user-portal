@@ -1,0 +1,496 @@
+.pl_reg_form_input_left {
+    width: 49%;
+}
+
+.pl_reg_form_input_right {
+    width: 49%;
+}
+
+.pl_reg_form_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl_reg_form_input_left input {
+    width: 100%;
+}
+
+.pl_reg_form_input_right input {
+    width: 100%;
+}
+
+.pl_reg_form_input input {
+    height: 40px;
+    border-radius: 6px;
+}
+
+.pl_reg_form_input_right_innr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pl_reg_form_input_right_innr input[type="checkbox"] {
+    height: auto;
+    width: auto;
+}
+
+
+.pl_reg_form_input_left select.form-select {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.pl_reg_form_input_left_innr input[type="checkbox"] {
+    height: auto;
+    width: auto;
+}
+
+.pl_reg_form_input_right select.form-select {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pl_reg_form_input {
+    margin-bottom: 20px;
+}
+
+.pl_registration_form p, .pl_registration_form label {
+    font-family: 'Rajdhani', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 17px;
+}
+
+.pl_registration_form input, .pl_registration_form select {
+    font-family: 'Rajdhani', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.pl_registration_form {
+    padding: 80px 0px;
+}
+
+.pl_reg_form_innr {
+    background: #fff;
+    padding: 80px 50px 50px;
+}
+
+.pl_reg_form_input_right input[type="submit"] {
+    background: #f68b2e;
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.pl_reg_form_input_right input#accettazione_condizioni {
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+}
+
+.input_check_box {
+    display: flex;
+    align-items: center;
+}
+
+label#user_name-error {
+    color: red;
+}
+
+label#company-error {
+    color: red;
+}
+
+label#email-error {
+    color: red;
+}
+
+label#set_password-error {
+    color: red;
+}
+
+label#telephone_number-error {
+    color: red;
+}
+
+label#policy_acceptance-error {
+    color: red;
+}
+
+label#surname-error {
+    color: red;
+}
+
+label#address-error {
+    color: red;
+}
+
+label#repeat_mail-error {
+    color: red;
+}
+
+label#repeat_password-error {
+    color: red;
+}
+
+label#select_role-error {
+    color: red;
+}
+
+label#accettazione_condizioni-error {
+    color: red;
+}
+
+label#customer_code-error {
+    color: red;
+}
+
+label#normal_name-error {
+    color: red;
+}
+
+.pl_reg_form_input_right.input_check_box input#accet_condizioni {
+    width: auto;
+    height: auto;
+}
+
+label#email_two-error {
+    color: red;
+}
+
+label#password_two-error {
+    color: red;
+}
+
+label#accet_condizioni-error {
+    color: red;
+}
+
+@media all and (max-width: 767px) {
+    .pl_reg_form_input_left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pl_reg_form_input {
+        flex-wrap: wrap;
+    }
+
+    .pl_reg_form_input_right {
+        width: 100%;
+    }
+
+    .pl_reg_form_innr {
+        padding: 40px 40px 30px;
+    }
+}
+
+.admin_main_section_inner_single {
+    width: 33.33%;
+    padding: 35px;
+}
+
+.slider_one_single_text h2 {
+    font-family: 'Rajdhani', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 20px 5px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.slider_one_single_text p {
+    font-family: 'Rajdhani', Helvetica, Arial, Lucida, sans-serif;
+    text-align: center;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+.slider_one_single_text h3 {
+    font-family: 'Rajdhani', Helvetica, Arial, Lucida, sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.slider_one_single_text a {
+    font-family: 'Rajdhani', Helvetica, Arial, Lucida, sans-serif;
+    display: table;
+    margin: auto;
+    background: #f68b2e;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.slider_one_single_text a:hover {
+    background: #000;
+}
+
+.admin_main_section_inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin_main_section_inner_single button.owl-next {
+    position: absolute;
+    top: 30%;
+    right: -15px;
+}
+
+.admin_main_section_inner_single button.owl-prev {
+    position: absolute;
+    top: 30%;
+    left: -15px;
+}
+
+.admin_main_section_inner_single button.owl-next span, .admin_main_section_inner_single button.owl-prev span {
+    font-size: 50px;
+    color: #fff;
+}
+
+.admin_main_section_inner_single .owl-nav {
+    opacity: 0;
+    transition: .4s;
+}
+
+.admin_main_section_inner_single:hover .owl-nav {
+    opacity: 1;
+}
+
+
+.admin_main_section_inner_single button.owl-dot {
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+.admin_main_section_inner_single .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.admin_main_section_inner_single button.owl-dot.active {
+    background: #ff7f15;
+}
+
+form.restricted_content input {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 30px;
+}
+
+form.restricted_content input[type="submit"] {
+    width: 20%;
+    text-align: center;
+    background: #f68b2e;
+    color: #fff;
+    border: 1px solid #f68b2e;
+    cursor: pointer;
+}
+
+form.restricted_content {
+    display: flex;
+    margin: 10px 0px;
+}
+
+p.restricted_content {
+    padding: 0;
+    line-height: 20px;
+}
+
+#restricted_content_check {
+    display: none;
+}
+
+#protected_content_rdc p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 1150px) {
+    .admin_main_section_inner_single {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .admin_main_section_inner_single {
+        width: 100%;
+        padding: 15px 0px;
+    }
+}
+
+/* registration page design  */
+.registration_top_logo {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.pl_reg_form_innr {
+    background: #fff;
+    border-radius: 25px;
+    padding: 60px 50px;
+    box-shadow: 0px 0px 50px #d7d7d7;
+}
+
+.eye_info span {
+    display: block;
+    height: 18px;
+    width: 18px;
+    float: right;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 19px;
+    padding-left: 1px;
+    cursor: pointer;
+    margin-top: -17px;
+    margin-bottom: 2px;
+}
+
+.eye_info {
+    position: relative;
+}
+
+.eye_info_innr {
+    position: absolute;
+    top: -90px;
+    background: #fff;
+    border: 1px solid #ddd;
+    right: 0px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #000;
+    border-radius: 5px;
+    display: none;
+}
+
+.eye_info:hover .eye_info_innr {
+    display: block;
+}
+
+.pl_input_right_innr_btm {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pl_input_right_innr_tp {
+    width: 100%;
+}
+
+.pl_input_right_innr_btm {
+    display: none;
+}
+
+label#email_one-error {
+    color: red;
+}
+
+.row.input_field_two_col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.input_field_two_col .col-sm-12 {
+    width: 50%;
+}
+
+.row.input_field_two_col .pl_reg_form_input_left {
+    width: 100%;
+}
+
+.row.input_field_two_col .pl_reg_form_input_right {
+    width: 100%;
+}
+
+.row.input_field_two_col .pl_reg_form_input_left input, .row.input_field_two_col .pl_reg_form_input_right input {
+    height: 40px;
+    border-radius: 6px
+}
+
+.pl_reg_form_main_input_leff {
+    padding-right: 10px;
+}
+
+.pl_reg_form_main_input_right {
+    padding-left: 10px;
+}
+
+.row.input_field_two_col .pl_reg_form_input_right {
+    margin-bottom: 15px;
+}
+
+.row.input_field_two_col .pl_reg_form_input_right_innr {
+    margin-bottom: 15px;
+}
+
+.row.input_field_two_col .pl_reg_form_input_left {
+    margin-bottom: 15px;
+}
+
+.row.input_field_two_col .pl_reg_form_input_left_innr {
+    display: flex;
+    align-items: center;
+}
+
+.row.input_field_two_col input#policy_acceptance {
+    margin-top: -1px;
+}
+
+select#already_client {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.pl_input_right_innr_btm input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.show_for_mobile_vw {
+    display: none;
+}
+
+@media all and (max-width: 900px) {
+    .row.input_field_two_col .col-sm-12 {
+        width: 100%;
+    }
+
+    .show_for_mobile_vw {
+        display: block;
+    }
+
+    .hide_for_mobile_vw {
+        display: none;
+    }
+
+    .pl_reg_form_main_input_right {
+        padding-left: 0px;
+    }
+
+    .pl_reg_form_main_input_leff {
+        padding-right: 0px;
+    }
+}
+
+label#already_client-error {
+    color: red;
+}
+
